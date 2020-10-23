@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+
+    <!-- we can use ass an alert popup in the <head> tag -->
+    <script>
+        let d = new Date();
+        alert("Today's date is " + d);
+    </script>
+
+  </head>
+  <body>
+    <!-- we can use as an content in the <body> tag -->
+    <script>
+        document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+    </script>
+
+  </body>
+</html>
+
+
+
+
+<!-- Adding JavaScript into an HTML Document -->
+<!-- You can add the HTML tag <script>.
+The <script> tag can be placed in the <head>, <body> or after the </body> close tag, depending on when you want the JS load.
+Generally, the code can go inside <head>, however, if your script needs to run at a certain point within a page’s layout,
+you should put it at the point where it should be called, usually within the <body> section. -->
+
+
+
+<!-- Working with a Separate JavaScript File -->
+<!-- The benefits of using a separate JavaScript file include:
+
+    1. Separating the HTML markup and JavaScript code to make both more straightforward
+    2. Separate files makes maintenance easier
+    3. When JavaScript files are cached, pages load more quickly -->
+<!-- Let’s create a small web project to connect JS document to an HTML document. -->
